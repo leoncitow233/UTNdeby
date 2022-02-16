@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="../index.html" class="linklogo">
+          <img class="icono" src="../imagen/icono.png" alt="icono" />
+        </a>
+      </div>
+    </header>
+
+    <nav class="navbar">
+      <ul class="menuPrincipal">
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="./productos.html">Productos</a>
+        </li>
+        <li>
+          <a href="./quienesomos.html">Quienesomos</a>
+        </li>
+        <li>
+          <a href="./contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main id="mainContent">
+       <section id="portada">
+              <form method="post" id="formContacto"> 
+                <div>
+                  <label>Nombre:</label>
+                  <input type="text" name="nombre" placeholder="Introduzca su Nombre">
+                </div>
+                <div>
+                  <label>Apellido:</label>
+                  <input type="text" name="apellido" placeholder="Introduzca su Apellido">
+                </div>
+                  <div>
+                  <label>E-mail</label>
+                  <input type="email" name="email" placeholder="Ingrese su e-mail">
+                  </div>
+                  <div>
+                    <label>Telefone</label>
+                    <input type="email" name="telefone" placeholder="Ingrese su Telefono">
+                  </div>
+                  <div>
+                    <label>Provincia:</label>
+                    <select name="provincia">
+                          <option>Seleccione su Provincia</option>
+                          <option value="caba">CABA</option>
+                          <option value="santafe">Santa Fe</option>
+                          <option value="mendoza">Mendoza</option>
+                          <option value="entrerios">Entre Rios</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label>Comentarios</label>
+                    <textarea name="comentario" cols="30" row="10" required></textarea>
+                  </div>
+                  <div>
+                    <label></label>
+                    <input type="checkbox">
+                    Quiero recibir informacion
+                  </label>               
+                  </div>
+                  <div>
+                    <input type="submit" value="ENVIAR" class="btn envio">
+                  </div>
+                
+  
+              </form>
+      </section>
+    </main>
+
+    <br />
+    <hr />
+    <footer>
+      <p>&copy; 2022 :::: Derechos Reservados</p>
+      <p>
+        Desarrollado por
+        <a href="http://www.talabarteriastirp.com/index.html" target="_blank">Mi Empresa</a>
+      </p>
+      <p>Enviar un <a href="mailto:oficinavillagesell@gmail.com">Mail</a></p>
+    </footer>
+</html>
