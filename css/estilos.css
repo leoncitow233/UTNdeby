@@ -59,6 +59,12 @@ body {
   color: rgb(56, 31, 3);
 }
 
+iframe {
+  margin-left: 450px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
 /* estilos de las imagenes en el index */
 
 #contenedor {
@@ -149,4 +155,21 @@ footer {
   text-align: center;
   padding: 15px;
   font-size: 13px;
+}
+
+@media screen and (min-width: 990px) and (max-width: 1200px) {
+  body {
+    background: rgb(58, 182, 240);
+  }
+}
+
+@media screen and (min-width: 660px) and (max-width: 989px) {
+  body {
+    background: rgb(240, 222, 58);
+  }
+
+  /* .logo {
+    width: 100%;
+    text-align: center;
+  } */
 }
