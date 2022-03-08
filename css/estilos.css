@@ -30,17 +30,31 @@ body {
 .logo a {
   color: white;
   text-decoration: none;
+  /* display: flex;
+  justify-content: flex-end; */
 }
-.navbar {
+
+.acceder {
+  margin-top: 30px;
+  margin-right: 20px;
+  float: right;
+}
+
+.container-fluid {
+  background-color: #e0dcd7;
+  width: 95vw;
+  height: 100px;
+}
+/* .navbar {
   background-color: #ba965d;
   color: white;
   width: 95vw;
   height: 100px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
-.navbar ul {
+/* .navbar ul {
   text-align: center;
   font-size: 20px;
 }
@@ -57,7 +71,7 @@ body {
 }
 .navbar ul li a:hover {
   color: rgb(56, 31, 3);
-}
+} */
 
 iframe {
   margin-left: 450px;
